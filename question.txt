@@ -1,0 +1,11 @@
+A- the income data set contains two columns the first is the number of adults in a household and the second is the combined income for the household.
+If we want to estimate the mean income per person we can do this in one of two ways:
+> mean(income/size)
+> mean(income)/mean(size)
+Use the bootstrap to evaluate the variances of these two estimators. Which one is the better estimator?
+
+B- Use the jackknife to evaluate the variance and bias of the two estimators.
+
+C- Consider fitting a polynomial relationship between income, Y , and household size, X:
+> Y = a + bX + cX^2 + dX^3 + . . .
+Use cross validation to choose the polynomial with the smallest predictive error.
