@@ -1,6 +1,6 @@
 # Income Per-Person Estimator Analysis: Bootstrap, Jackknife, and Cross-Validation
 
-Estimation of the mean income per person from a household data set `income` using three complementary approaches: bootstrap variance estimation of two rival estimators, jackknife variance and bias estimation, and cross-validation for polynomial model selection — all implemented in Python with NumPy and Matplotlib.
+Estimation of the mean income per person from a household data set `income` using three complementary approaches: bootstrap variance estimation of two rival estimators, jackknife variance and bias estimation, and cross-validation for polynomial model selection | all implemented in Python with NumPy and Matplotlib.
 
 ## Problem Statement
 
